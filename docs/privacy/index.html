@@ -44,7 +44,7 @@
 
   <section id="ja" lang="ja">
     <h1>Grand Tour プライバシーポリシー</h1>
-    <p class="meta">制定日: 2026年10月29日</p>
+    <p class="meta">制定日: 2026年10月29日 ・ 最終更新日: 2026年10月31日</p>
 
     <p>このポリシーは、Chrome 拡張機能「Grand Tour」(以下「本拡張機能」) が利用者の情報をどのように扱うかを説明するものです。</p>
 
@@ -62,17 +62,25 @@
       <li>サイトごとの訪問数の比率をグラフで表示すること</li>
       <li>閲覧履歴をアニメーションで再生 (リプレイ) すること</li>
       <li>リプレイを動画ファイルとして書き出すこと</li>
+      <li>閲覧の傾向をまとめた画像 (称号、よく見たサイト、訪問比率) を作成すること</li>
     </ul>
 
     <h2>3. 保存と送信</h2>
     <ul>
       <li>すべての処理は利用者のブラウザ内で行われます。閲覧履歴やアイコンを、開発者や第三者のサーバーへ送信することはありません。</li>
       <li>本拡張機能は閲覧履歴を独自に保存しません。画面を開くたびに Chrome の閲覧履歴を読み取り、画面を閉じると破棄します。</li>
+      <li>例外として、まとめ画像や動画から隠すサイトとして利用者が選んだサイト名 (ドメイン名) の一覧だけを、次回も同じ設定を使えるよう利用者の端末内 (ブラウザの localStorage) に保存します。この一覧も外部へ送信しません。本拡張機能を削除すると一覧も削除されます。</li>
       <li>アクセス解析、広告、外部のスクリプトやサービスは使用していません。</li>
     </ul>
 
-    <h2>4. 書き出した動画</h2>
-    <p>動画の書き出し機能で作成した動画ファイルは、利用者の端末上で生成され、利用者自身が保存します。本拡張機能が動画をアップロードしたり共有したりすることはありません。動画にはページのタイトルは含まれませんが、サイト名と訪問時刻が含まれます。動画を共有する際は、内容を確認したうえで利用者自身の判断で行ってください。</p>
+    <h2>4. まとめ画像と動画、共有</h2>
+    <p>まとめ画像と動画は、利用者の端末上で生成されます。ページのタイトルは含まれませんが、サイト名、訪問数、訪問時刻、閲覧の傾向を表す称号が含まれます。隠すサイトとして選んだサイトは含まれません。</p>
+    <p>本拡張機能が画像や動画を自動でアップロードすることはありません。利用者が共有ボタンを押した場合にのみ、次のいずれかを行います。</p>
+    <ul>
+      <li>OS の共有メニューを開き、画像または動画と投稿文を、利用者が選んだ共有先のアプリへ渡します。</li>
+      <li>共有メニューに対応していない環境では、画像をクリップボードにコピーするか動画を保存したうえで、X (旧 Twitter) の投稿画面を新しいタブで開きます。このとき、投稿文 (表示期間、称号、ハッシュタグ) が X に送られ、投稿画面に入力された状態になります。画像や動画は送られず、投稿するかどうかは利用者が決めます。</li>
+    </ul>
+    <p>共有先でのデータの扱いは、それぞれのサービスのポリシーに従います。共有する際は、内容を確認したうえで利用者自身の判断で行ってください。</p>
 
     <h2>5. 第三者への提供</h2>
     <p>本拡張機能は利用者の情報を収集しないため、第三者へ販売・提供・共有することはありません。また、広告のパーソナライズ、信用評価、データブローカーへの提供などの目的で使用することもありません。</p>
@@ -81,10 +89,10 @@
     <p>本拡張機能によるユーザーデータの使用は、Limited Use (使用制限) の要件を含む <a href="https://developer.chrome.com/docs/webstore/program-policies/policies">Chrome ウェブストアのユーザーデータに関するポリシー</a> に準拠しています。</p>
 
     <h2>7. 利用者による管理</h2>
-    <p>本拡張機能を削除すると、閲覧履歴へのアクセスは直ちに停止します。閲覧履歴そのものは Chrome の機能として保存されているため、削除する場合は Chrome の履歴画面 (<code>chrome://history</code>) から行ってください。</p>
+    <p>本拡張機能を削除すると、閲覧履歴へのアクセスは直ちに停止し、端末内に保存した「隠すサイト」の一覧も削除されます。一覧は、まとめ・動画の画面でサイトをもう一度押すことでいつでも外せます。閲覧履歴そのものは Chrome の機能として保存されているため、削除する場合は Chrome の履歴画面 (<code>chrome://history</code>) から行ってください。</p>
 
     <h2>8. ポリシーの変更</h2>
-    <p>本ポリシーを変更する場合は、このページで告知し、制定日を更新します。</p>
+    <p>本ポリシーを変更する場合は、このページで告知し、最終更新日を更新します。</p>
 
     <h2>9. お問い合わせ</h2>
     <p>710ooooo<br><a href="mailto:710ooooo.dev@gmail.com">710ooooo.dev@gmail.com</a></p>
@@ -92,7 +100,7 @@
 
   <section id="en" lang="en">
     <h1>Grand Tour Privacy Policy</h1>
-    <p class="meta">Effective date: October 29, 2026</p>
+    <p class="meta">Effective date: October 29, 2026 · Last updated: October 31, 2026</p>
 
     <p>This policy explains how the Chrome extension "Grand Tour" (the "Extension") handles user information.</p>
 
@@ -108,19 +116,27 @@
     <ul>
       <li>display your browsing history on a timeline;</li>
       <li>show the share of visits per site as a chart;</li>
-      <li>replay your browsing history as an animation; and</li>
-      <li>export the replay as a video file.</li>
+      <li>replay your browsing history as an animation;</li>
+      <li>export the replay as a video file; and</li>
+      <li>create a summary image of your browsing (a title describing your habits, most-visited sites and visit shares).</li>
     </ul>
 
     <h2>3. Storage and transmission</h2>
     <ul>
       <li>All processing happens locally in your browser. Your browsing history and site icons are never sent to the developer or to any third-party server.</li>
       <li>The Extension does not keep its own copy of your history. It reads Chrome's history each time you open it and discards it when you close the page.</li>
+      <li>The only exception is the list of site names (domains) you choose to hide from summaries and videos. It is stored on your device (in the browser's localStorage) so the same choice applies next time. This list is never sent anywhere and is deleted when you remove the Extension.</li>
       <li>The Extension uses no analytics, no advertising, and no external scripts or services.</li>
     </ul>
 
-    <h2>4. Exported videos</h2>
-    <p>Videos created with the export feature are generated on your device and saved by you. The Extension never uploads or shares them. Exported videos do not include page titles, but they do include site names and visit times. Please review a video before sharing it.</p>
+    <h2>4. Summary images, videos and sharing</h2>
+    <p>Summary images and videos are generated on your device. They do not include page titles, but they do include site names, visit counts, visit times and a title describing your browsing habits. Sites you chose to hide are not included.</p>
+    <p>The Extension never uploads images or videos on its own. Only when you press the share button, it does one of the following:</p>
+    <ul>
+      <li>opens your operating system's share menu and passes the image or video, together with a short post text, to the app you choose; or</li>
+      <li>where the share menu is not available, copies the image to your clipboard or saves the video, then opens the X (formerly Twitter) post page in a new tab. The post text (the date range, the title and a hashtag) is sent to X to prefill the post. The image or video itself is not sent, and you decide whether to post.</li>
+    </ul>
+    <p>Shared content is handled according to the policies of the service you share to. Please review the content before sharing it.</p>
 
     <h2>5. Sharing with third parties</h2>
     <p>Because the Extension does not collect your information, it never sells, transfers or shares it with third parties, and never uses it for personalized advertising, creditworthiness or lending purposes, or for data brokers.</p>
@@ -129,10 +145,10 @@
     <p>The use of information received by the Extension adheres to the <a href="https://developer.chrome.com/docs/webstore/program-policies/policies">Chrome Web Store User Data Policy</a>, including the Limited Use requirements.</p>
 
     <h2>7. Your choices</h2>
-    <p>Removing the Extension immediately stops its access to your browsing history. Your history itself is stored by Chrome; to delete it, use Chrome's history page (<code>chrome://history</code>).</p>
+    <p>Removing the Extension immediately stops its access to your browsing history and deletes the list of hidden sites stored on your device. You can also unhide a site at any time by pressing it again in the summary or video dialog. Your history itself is stored by Chrome; to delete it, use Chrome's history page (<code>chrome://history</code>).</p>
 
     <h2>8. Changes to this policy</h2>
-    <p>If this policy changes, the update will be posted on this page and the effective date will be revised.</p>
+    <p>If this policy changes, the update will be posted on this page and the last updated date will be revised.</p>
 
     <h2>9. Contact</h2>
     <p>710ooooo<br><a href="mailto:710ooooo.dev@gmail.com">710ooooo.dev@gmail.com</a></p>
